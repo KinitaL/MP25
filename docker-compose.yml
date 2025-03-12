@@ -1,0 +1,9 @@
+services:
+  cobra:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - './data:/app/data'
+      - './output:/app/output'
+      - './scripts:/app/scripts'
