@@ -1,0 +1,13 @@
+name: mp
+channels:
+  - bioconda
+  - conda-forge
+dependencies:
+  - python=3.12
+  - bioconda::blast
+  - bioconda::orthofinder
+  - bioconda::iqtree
+  - bioconda::astral-tree
+  - bioconda::generax
+  - bioconda::trimal
+  - bioconda::AMAS
